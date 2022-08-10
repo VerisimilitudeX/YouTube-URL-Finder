@@ -4,8 +4,8 @@ import edu.duke.URLResource;
 import java.util.Scanner;
 
 // This class finds all the YouTube videos in a web page and returns the URLs of the videos.
-public class Part4 {
-    public static void returnYouTubeLinks() {
+public class YouTubeURLFinder {
+    public static void getYouTubeLinks() {
         Scanner ur = new Scanner(System.in);
         System.out.println("Enter the URL of the document you want to search within: ");
         String URL = ur.nextLine();
@@ -23,6 +23,6 @@ public class Part4 {
         }
     }
     public static void main(String[] args) {
-         returnYouTubeLinks();
+         getYouTubeLinks();
     }
 }
